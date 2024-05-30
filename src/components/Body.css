@@ -1,0 +1,23 @@
+
+.img1 img{
+    height: calc(100vh - 70px);
+    width: 99vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+    
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+    .img1 img{
+        height: calc(662px - 70px);
+        width: 100%;
+        object-fit: cover;
+       
+      
+       
+    }
+}

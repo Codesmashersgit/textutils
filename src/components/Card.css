@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.total{
+    display: flex;
+  
+    align-items: center;
+}
+.boxes{
+  
+    /* background-color: black; */
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team1{
+    border: transparent;
+    background-color: rgb(74, 250, 74);
+    padding: 20px 20px;
+    width: 250px;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.team2{
+    border: transparent;
+    background-color: rgb(74, 250, 74);
+    padding: 20px 20px;
+    width: 250px;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}

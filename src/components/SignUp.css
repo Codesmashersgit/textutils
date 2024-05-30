@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div img{
+  height: 700px;
+  width: 700px;
+  border-radius:  70% 30% 70% / 70% 52% 48% 80%;
+  object-fit: cover;
+    
+}
+.signUp{
+  height: 500px;
+  width: 600px;
+   position: absolute;
+   top: 50%;
+   left: 70%;
+   transform: translate(-50%,-50%);
+    background-color: whitesmoke;
+    box-shadow: 0 8px 32px 0 rgba(13, 33, 210, 0.348);
+}
+
+.signUp h6{
+    font-size: 2vw;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+   text-shadow: #FC0 1px 0 10px;
+   text-transform: uppercase;
+}
+
+.username{
+    position: relative;
+    top: 10%;
+    left: 3%;
+
+
+}
+.username p{
+    color: blue;
+    font-size: 1.3vw;
+    
+    margin-top: 9px;
+
+
+}
+.username input{
+    position: absolute;
+    /* top: 35%; */
+    left: 25%;
+    height: 50px;
+    width: 65%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.username input[type=text]{
+    padding: 10px;
+}
+
+.username input[type=text]:focus{
+   border: 1px solid blue;
+}
+
+.signup-email{
+    position: relative;
+    top: 25%;
+    left: 3%;
+
+}
+
+.signup-email p{
+    color: blue;
+    font-size: 1.3vw;
+    margin-top: 9px;
+
+
+}
+.signup-email input{
+    position: absolute;
+    left: 25%;
+    height: 50px;
+    width: 65%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+}
+.signup-email input[type=email]{
+    padding: 10px;
+}
+.signup-email input[type=email]:focus{
+    border: 1px solid blue;
+ }
+ 
+ .password{
+    position: relative;
+    top: 40%;
+    left: 3%;
+
+ }
+ .password p{
+    color: blue;
+    font-size: 1.3vw;
+    margin-top: 9px;
+
+ }
+
+ .password input{
+    position: absolute;
+    left: 25%;
+    height: 50px;
+    width: 65%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+ }
+
+ .password input[type=password]{
+    padding: 10px;
+ }
+ .password input[type=password]:focus{
+    border: 1px solid blue;
+ }
+ .cnf-pswd{
+    position: relative;
+    top: 55%;
+    left: 3%;
+
+ }
+ .cnf-pswd p{
+    color: blue;
+    font-size: 1.3vw;
+    margin-top: 9px;
+
+
+ }
+
+ .cnf-pswd input{
+    position: absolute;
+    left: 40%;
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+ }
+ .cnf-pswd input[type=password]{
+    padding: 10px;
+
+ }
+ .cnf-pswd input[type=password]:focus{
+    border: 1px solid blue;
+ }
+.account{
+   position: absolute;
+   top: 80%;
+   left: 30%;
+   color: grey;
+
+}
+.account a{
+   color:  #2691d9;
+   text-decoration: none;
+}
+
+.account a:hover{
+   text-decoration: underline;
+}
+
+.register{
+   position: absolute;
+   top: 87%;
+   left: 35%;
+
+}
+
+.register button{
+   height: 50px;
+   width: 200px;
+   padding: 10px;
+   background-color: blue;
+   color:white;
+   text-shadow: #FC0 1px 0 10px;
+   border: none;
+   border-radius: 10px;
+   font-size: 1.3vw;
+}
+
+.register button:hover{
+   background-color: #2691d9;
+}

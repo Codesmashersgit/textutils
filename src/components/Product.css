@@ -1,0 +1,203 @@
+nav{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+
+.medi img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    margin-left: 5%;
+    cursor: pointer;
+    border-radius: 50%;
+   
+   
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+.login{
+    height: 40px;
+    width: 90px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+   
+
+}
+
+.sign{
+    height: 40px;
+    width: 90px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+ 
+
+
+}
+
+.img img{
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+    cursor: pointer;
+    margin-left: 2px;
+    
+   
+}
+
+input[type=search]{
+    height: 50px;
+    width: 300px;
+   border-radius: 30px;
+   border: none;
+   outline: none;
+   padding: 15px;
+   margin-top: 2%;
+   transition: 0.5s all ease;
+   background-color: #f1f2f6;
+
+
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border:transparent;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(120deg,lightgreen,white);
+    color: black;
+    margin-top: 7px;
+    margin-left: 2px;
+    cursor: pointer;
+    
+   
+}
+span{
+    color: red;
+    
+ 
+}
+input[type=search]:focus{
+    box-shadow: 0px  0px 7px 7px lightblue;
+    border: 1px solid rgb(15, 168, 218);
+}
+/* 
+a:hover{
+    border-bottom: 2px solid rgb(15, 168, 218); 
+    width: 100%;
+
+} */
+
+@media only screen and (max-width: 600px) {
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 1%;
+
+    }
+    nav{
+    background-color: whitesmoke;
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    a{
+        display: none;
+
+    }
+    input[type=search]{
+       display: none;
+    }
+    
+.img img{
+   display: none;
+   
+}
+h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    border:transparent;
+    padding: 2px;
+    border-radius: 5px;
+    background: linear-gradient(90deg,lightgreen,white);
+    color: black;
+   margin-left: 3%;
+    cursor: pointer;
+    height: 30px;
+    width: 250px;
+
+    
+   
+}
+span{
+    color: red;
+    
+ 
+}
+.login{
+    height: 20px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 1%;
+   padding-bottom: 8%;
+   font-size: small;
+   
+   
+
+}
+.sign{
+    height: 20px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 8%;
+    font-size: small;
+   
+
+
+}
+
+    }
+
+.login:hover{
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+    width: none;
+}
+
+.sign:hover{
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+
+}
